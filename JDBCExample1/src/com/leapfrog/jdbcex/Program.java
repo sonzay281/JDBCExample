@@ -5,6 +5,7 @@
  */
 package com.leapfrog.jdbcex;
 
+import com.leapfrog.jdbcex.customers.CustomersMenu;
 import com.leapfrog.jdbcex.products.ProductsMenu;
 import com.leapfrog.jdbcex.suppliers.SuppliersMenu;
 import java.util.Scanner;
@@ -36,7 +37,7 @@ public class Program {
                     SuppliersMenu.main(args);
                     break;
                 case 4:
-
+                       CustomersMenu.main(args);
                     break;
                 case 5:
                     System.out.println("Thanks dear.See you again :D");
